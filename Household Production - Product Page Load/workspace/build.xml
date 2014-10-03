@@ -18,7 +18,7 @@
     <jmeter
        jmeterhome="C:\Users\Administrator\Desktop\apache-jmeter-2.11\"
        resultlogdir="results\jtl">
-      <testplans dir="C:\Users\Administrator\Desktop\Test-Plans\Household Production - Save Quote Load\" includes="*.jmx"/>
+      <testplans dir="C:\Users\Administrator\Desktop\Test-Plans\Household Production - Product Page Load\" includes="*.jmx"/>
       <property name="jmeter.save.saveservice.output_format" value="xml"/>
     </jmeter>
   </target>
