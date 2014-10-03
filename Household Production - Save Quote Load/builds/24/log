@@ -1,0 +1,20 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace C:\Users\Administrator\.jenkins\jobs\Household Production - Save Quote Load\workspace
+[workspace] $ cmd.exe /C '"C:\apache-ant-1.5.2\bin\ant.bat && exit %%ERRORLEVEL%%"'
+Buildfile: build.xml
+
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mbuild:
+   [jmeter] Executing test plan: C:\Users\Administrator\Desktop\Test-Plans\Household Production - Save Quote Load\Production - Save Quote -1.jmx ==> C:\Users\Administrator\.jenkins\jobs\Household Production - Save Quote Load\workspace
+   [jmeter] Creating summariser <summary>
+   [jmeter] Created the tree successfully using C:\Users\Administrator\Desktop\Test-Plans\Household Production - Save Quote Load\Production - Save Quote -1.jmx
+   [jmeter] Starting the test @ Fri Oct 03 11:10:46 UTC 2014 (1412334646950)
+   [jmeter] Waiting for possible shutdown message on port 4445
+   [jmeter] summary +     19 in    43s =    0.4/s Avg: 21021 Min: 21002 Max: 21247 Err:    19 (100.00%) Active: 36 Started: 36 Finished: 0
+   [jmeter] summary +     57 in  50.4s =    1.1/s Avg: 21004 Min: 20995 Max: 21015 Err:    57 (100.00%) Active: 50 Started: 50 Finished: 0
+   [jmeter] summary =     76 in  72.2s =    1.1/s Avg: 21008 Min: 20995 Max: 21247 Err:    76 (100.00%)
+   [jmeter] summary +     70 in    51s =    1.4/s Avg: 21006 Min: 20993 Max: 21118 Err:    70 (100.00%) Active: 50 Started: 50 Finished: 0
+   [jmeter] summary =    146 in   102s =    1.4/s Avg: 21007 Min: 20993 Max: 21247 Err:   146 (100.00%)
+   [jmeter] summary +     69 in    51s =    1.4/s Avg: 21003 Min: 20993 Max: 21028 Err:    69 (100.00%) Active: 50 Started: 50 Finished: 0
+   [jmeter] summary =    215 in   132s =    1.6/s Avg: 21006 Min: 20993 Max: 21247 Err:   215 (100.00%)
+   [jmeter] summary +     70 in  50.2s =    1.4/s Avg: 21003 Min: 20993 Max: 21080 Err:    70 (100.00%) Active: 50 Started: 50 Finished: 0
+   [jmeter] summary =    285 in   162s =    1.8/s Avg: 21005 Min: 20993 Max: 21247 Err:   285 (100.00%)

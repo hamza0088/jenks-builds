@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<project name="test.JmeterTest" default="build">
+ <!-- define jmeter task --> 
+ <taskdef
+      name="jmeter"
+      classname="org.programmerplanet.ant.taskdefs.jmeter.JMeterTask"/>
+ <target name="build">
+  <jmeter
+       jmeterhome="C:\Users\Administrator\Desktop\apache-jmeter-2.11\"
+       testplan="C:\Users\Administrator\Desktop\Test-Plans\Household Production - Save Quote Load\Production - Save Quote -1.jmx"
+       resultlog="">
+  </jmeter>
+  </target>
+    <target name="report" depends="build">
+	<xslt
+        basedir="C:\Users\Administrator\.jenkins\jobs\Household Production - Save Quote Load\"
+        destdir="results\"
+		includes="*.jtl"
+		style="C:\Users\Administrator\Desktop\apache-jmeter-2.11\extras\jmeter-results-report_21.xsl"/>
+ </target>
+</project>
